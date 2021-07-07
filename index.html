@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Test</title>
+</head>
+<body>
+<div class="header">
+    <div class="container">        
+        <div class="header__menu">
+            <div class="active">Личная информация</div>
+            <div>Опыт</div>
+            <div>JavaScript</div>
+            <div>О себе</div>
+        </div>
+        <div class="toggle-sidebar">
+            <button class="menu-icon-wrapper">
+                <div class="menu-icon"></div>
+            </button>
+        </div>
+    </div>
+</div>
+<div class="container">
+
+    <div class="h3">Анкета</div>
+
+    <div class="personalInfo">
+        <div class="personalInfo__icon"></div>
+        <div class="personalInfo__title">Личная информация</div>
+        <div class="personalInfo__group">
+            <input type="input" class="personalInfo__field" placeholder="ФИО" value="Резник Алексей Владимрович" id="FIO" required>
+            <label for="FIO" class="personalInfo__label">ФИО</label>
+        </div>
+        <div class="personalInfo__year">
+            <select required>            
+                <option value="" disabled selected>Год рождения</option>
+                <option value="1996" selected>1996</option>            
+            </select>
+        </div>
+        <div class="personalInfo__group">
+            <input type="input" class="personalInfo__field" placeholder="Место проживания" value="г.Алматы" id="place" required>
+            <label for="place" class="personalInfo__label">Место проживания</label>
+        </div>
+        <div class="personalInfo__group">
+            <input type="input" class="personalInfo__field" placeholder="Skype" id="skype" required>
+            <label for="skype" class="personalInfo__label">Skype</label>
+        </div>
+        <div class="personalInfo__group">
+            <input type="input" class="personalInfo__field" placeholder="E-mail" value="rez.alexxey@gmail.com" id="e-mail" required>
+            <label for="e-mail" class="personalInfo__label">E-mail</label>
+        </div>
+    </div>
+
+    <div class="experience">
+        <div class="experience__icon"></div>
+        <div class="experience__title">Расскажите о своем опыте</div>
+        <div class="experience__inp">
+                <label>
+                    <input type="checkbox" class="visually-hidden inp_check" checked>
+                    <span class="check_box"></span>
+                    БЭМ/OOCSS
+                </label>
+                <label>
+                    <input type="checkbox" class="visually-hidden inp_check" checked>
+                    <span class="check_box"></span>
+                    Верстаю семантично    
+                </label>
+                <label>
+                    <input type="checkbox" class="visually-hidden inp_check">
+                    <span class="check_box"></span>
+                    Webpack 
+                </label>
+                <label>
+                    <input type="checkbox" class="visually-hidden inp_check" checked>
+                    <span class="check_box"></span>
+                    Stylus/LESS/SASS
+                </label>
+                <label>
+                    <input type="checkbox" class="visually-hidden inp_check" checked>
+                    <span class="check_box"></span>
+                    ES2015/ES2016 
+                </label>
+                <label>
+                    <input type="checkbox" class="visually-hidden inp_check">
+                    <span class="check_box"></span>
+                    jQuery  
+                </label>
+                <label>
+                    <input type="checkbox" class="visually-hidden inp_check">
+                    <span class="check_box"></span>
+                    Работаю с SVG 
+                </label>            
+                
+                
+                <label>
+                    <input type="checkbox" class="visually-hidden inp_check">
+                    <span class="check_box"></span>
+                    Gulp/GRUNT
+                </label>            
+                
+                
+                <label>
+                    <input type="checkbox" class="visually-hidden inp_check" checked>
+                    <span class="check_box"></span>
+                    Ипользую Git
+                </label>
+        </div>
+    </div>
+
+    <div class="javaScript">
+        <div class="javaScript__icon"></div>
+        <div class="javaScript__title">Уровень владения JavaScript</div>
+        <div class="javaScript__rngName">
+            <div class="javaScript__rngName_1">Не владею<span class="marker_1"></span></div>
+            <div class="javaScript__rngName_2">Использую готовые <br>решения<span class="marker_2"></span></div>
+            <div class="javaScript__rngName_3">Использую готовые решения и умею иx переделывать<span class="marker_3"></span></div>
+            <div class="javaScript__rngName_4">Пишу сложный js с нуля</div>
+            <div class="javaScript__rngName_5"><span class="marker_4"></span></div>
+        </div>
+        <label class="heat-slider heat-slider--v">    
+            <span class="heat-slider--input">
+              <input type="range" class="javaScript__input" value="8" min="0" max="16" oninput="doThings(event)" />
+            </span>    
+          </label>
+    </div>
+
+    <div class="about">
+        <div class="about__icon"></div>
+        <div class="about__title">Расскажите о себе</div> 
+        <div class="about__text">Напишите несколько предложений, чем привлекла наша вакансия и что вы ожидаете от работы у нас.</div>  
+        <div class="about__textarea">    
+            <textarea name="about" placeholder="Понравилась тем, что..." value="">Ваша компания понравилась тем, что предоставляет отличные условия для работы.</textarea>
+        </div>
+    </div>
+    <button>Готово</button>
+</div> 
+
+<script src="js/javascript.js"></script>
+    
+</body>
+</html>
