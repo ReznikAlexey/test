@@ -207,9 +207,6 @@ body {
   font-family: "Roboto light";
   color: #1c1c1c;
   line-height: 1.2;
-  -moz-transform: matrix(0.999572101, 0, 0, 0.9994313233, 0, 0);
-  -webkit-transform: matrix(0.999572101, 0, 0, 0.9994313233, 0, 0);
-  -ms-transform: matrix(0.999572101, 0, 0, 0.9994313233, 0, 0);
 }
 .personalInfo .personalInfo__group {
   position: relative;
@@ -341,9 +338,6 @@ body {
   font-family: "Roboto light";
   color: #1c1c1c;
   line-height: 1.2;
-  -moz-transform: matrix(0.999572101, 0, 0, 0.9994313233, 0, 0);
-  -webkit-transform: matrix(0.999572101, 0, 0, 0.9994313233, 0, 0);
-  -ms-transform: matrix(0.999572101, 0, 0, 0.9994313233, 0, 0);
 }
 .experience .experience__inp {
   display: -webkit-box;
@@ -407,9 +401,6 @@ body {
   font-size: 30px;
   color: #1c1c1c;
   line-height: 1.2;
-  -moz-transform: matrix(0.999572101, 0, 0, 0.9994313233, 0, 0);
-  -webkit-transform: matrix(0.999572101, 0, 0, 0.9994313233, 0, 0);
-  -ms-transform: matrix(0.999572101, 0, 0, 0.9994313233, 0, 0);
 }
 .javaScript .javaScript__rngName {
   display: -webkit-box;
@@ -621,9 +612,6 @@ body {
   font-size: 30px;
   color: #1c1c1c;
   line-height: 1.2;
-  -moz-transform: matrix(0.999572101, 0, 0, 0.9994313233, 0, 0);
-  -webkit-transform: matrix(0.999572101, 0, 0, 0.9994313233, 0, 0);
-  -ms-transform: matrix(0.999572101, 0, 0, 0.9994313233, 0, 0);
 }
 .about .about__text {
   max-width: 495px;
@@ -687,6 +675,14 @@ button {
   border-radius: 10px;
   font-size: 16px;
   line-height: 1.2;
+}
+button:hover {
+  background-color: #314783;
+}
+button:active {
+  background-color: #2d4074;
+  -webkit-box-shadow: 0 3px #202e53 inset;
+          box-shadow: 0 3px #202e53 inset;
 }
 
 .visually-hidden {

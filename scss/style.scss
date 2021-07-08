@@ -176,9 +176,6 @@ body {
         font-family: 'Roboto light';
         color: rgb(28, 28, 28);
         line-height: 1.2;
-        -moz-transform: matrix( 0.99957210098417,0,0,0.99943132332197,0,0);
-        -webkit-transform: matrix( 0.99957210098417,0,0,0.99943132332197,0,0);
-        -ms-transform: matrix( 0.99957210098417,0,0,0.99943132332197,0,0);
     }     
       
     .personalInfo__group {
@@ -284,9 +281,6 @@ body {
         font-family: 'Roboto light';
         color: rgb(28, 28, 28);
         line-height: 1.2;
-        -moz-transform: matrix( 0.99957210098417,0,0,0.99943132332197,0,0);
-        -webkit-transform: matrix( 0.99957210098417,0,0,0.99943132332197,0,0);
-        -ms-transform: matrix( 0.99957210098417,0,0,0.99943132332197,0,0);
     }
     .experience__inp {
         display: flex;
@@ -343,9 +337,6 @@ body {
         font-size: 30px;
         color: rgb(28, 28, 28);
         line-height: 1.2;
-        -moz-transform: matrix( 0.99957210098417,0,0,0.99943132332197,0,0);
-        -webkit-transform: matrix( 0.99957210098417,0,0,0.99943132332197,0,0);
-        -ms-transform: matrix( 0.99957210098417,0,0,0.99943132332197,0,0);
     }
     .javaScript__rngName {
         display: flex;
@@ -524,9 +515,6 @@ body {
         font-size: 30px;
         color: rgb(28, 28, 28);
         line-height: 1.2;
-        -moz-transform: matrix( 0.99957210098417,0,0,0.99943132332197,0,0);
-        -webkit-transform: matrix( 0.99957210098417,0,0,0.99943132332197,0,0);
-        -ms-transform: matrix( 0.99957210098417,0,0,0.99943132332197,0,0);
     }  
     .about__text {
         max-width: 495px;
@@ -567,6 +555,13 @@ button {
     border-radius: 10px;
     font-size: 16px;
     line-height: 1.2;
+    &:hover {
+        background-color: #314783; 
+    }
+    &:active {
+        background-color: #2d4074;
+        box-shadow: 0 3px  #202e53 inset; 
+    }
 }
 
 
